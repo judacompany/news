@@ -1,0 +1,50 @@
+*{margin:0;padding:0;}
+*, :after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+a{text-decoration:none}
+li{list-style:none;}
+
+body{font-family:sans-serif;}
+
+#header{}
+	#header-top{text-align:center;padding:15px 0;background:url('../images/head_bg.jpg') no-repeat center center;background-size:cover;min-height:10rem}
+	#header-bottom{clear:both;background-color:#F9E002;}
+	
+	#header-cap{background-color:#000;padding:1rem;border-bottom:5px solid #F9E000;}
+	#header-cap a{color:#fff;}
+	
+		#header-nav{}
+		#header-nav > ul{display:flex;width:100%;align-items:center;justify-content:center;text-align:center;}
+		#header-nav > ul > li{flex:1 1 auto;}
+		#header-nav > ul > li > a{color:#000;text-decoration:none;display:block;padding:15px;}
+		#header-nav > ul > li.active > a{background-color:#3C1E1D;color:#fff;}
+		
+#body{clear:both;padding:10px;background:#f1f1f1}
+
+/* title */
+.title{font-size:1.3rem;display:block;margin-bottom:10px;padding:20px 0;text-align:center;}
+.title span{color:rgba(0,0,0,.5);font-weight:normal;}
+
+/* form */
+.field{clear:both;margin-bottom:10px;}
+.field label{font-weight:bold;display:block;margin-bottom:3px;font-size:.8rem}
+.form-control{border-radius:3px;border:1px solid #dfdfdf;background:#fff;padding:15px;display:block;width:100%;}
+
+/* button */
+.btn{display:block;background-color:#000;color:#fff;font-size:1rem;border-radius:3px;text-align:center;border:1px solid #000;padding:15px;width:100%;}
+
+/* preview */
+.preview{border-radius:5px;background-color:#fff;overflow:hidden}
+.preview .preview-head img{width:100%;}
+.preview .preview-body{clear:both;padding:10px;}
+.preview .preview-body .preview-title{font-size:.8rem;font-weight:normal;}
+.preview .preview-body .preview-desc{font-size:.8rem;color:rgba(0,0,0,.6);margin-top:5px;}
+.preview .preview-body .preview-btn{display:block;text-align:center;color:rgba(0,0,0,.8);background-color:#f4f4f4;border-radius:3px;padding:10px;font-size:.9rem;margin-top:10px;}
+.preview .preview-foot{clear:both;font-size:.7rem;color:#999;padding:10px;}
+.preview .preview-foot img{vertical-align:middle;padding-right:5px;}
+
+/* 낚시버튼 */
+.btn-fishing{display:block;text-align:center;padding:20px;background-color:#1E213A;border-radius:3px;margin-top:20px;color:#fff;font-weight:bold;font-size:1.2rem;color:yellow}
